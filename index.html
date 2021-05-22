@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>HTML Öğreniyorum</title>
+</head>
+
+<body>
+    <div>İlk Etiket</div>
+    <span>İkinci Etiket</span>
+    <p>
+        Paragraf Etiketi
+    </p>
+    <h1>Başlık 1</h1>
+    <h2>Başlık 2</h2>
+    <h3>Başlık 3</h3>
+    <h4>Başlık 4</h4>
+    <h5>Başlık 5</h5>
+    <h6>Başlık 6</h6>
+    <p>
+        <b>Kalın</b> yazı yazıyorum.
+    </p>
+    <p>
+        <strong>Önemli</strong> yazı yazıyorum.
+    </p>
+    <p>
+        <i>İtalik</i> yazı yazıyorum.
+    </p>
+    <p>
+        <em>Önemli İtalik</em> yazı yazıyorum.
+    </p>
+    <p>
+        <small>Küçük</small> yazı yazıyorum.
+    </p>
+    <p>
+        <s>Üstü</s> çizili yazı yazıyorum.
+    </p>
+    <p>
+        <u> Altı</u> çizili yazı yazıyorum.
+    </p>
+    <p>
+        H<sub>2</sub>O
+    </p>
+    <p>
+        x<sup>2</sup>
+    </p>
+    <p>
+        <mark>Önemli</mark> bir yazı.
+    </p>
+    <p>
+        Sercan<br>Özbek
+    </p>
+    <p>
+        HTML'in dünya standartlarını <abbr title="World Wide Web Consortium">W3C</abbr> sağlamaktadır.
+    </p>
+    <p>
+        Steve Jobs Dediki;
+        <q>Nitelik nicelikten daha önemlidir.
+        </q>
+    </p>
+    <blockquote cite="https://tr.wikipedia.org/wiki/World_Wide_Web_Consortium">
+        Dünya Çapında Ağ Konsorsiyumu, Ekim 1994'te Ağ'ın mucidi Tim Berners-Lee tarafından MIT ve CERN bünyesinde
+        kurulmuş olan uluslararası Dünya Çapında Ağ standartlarını belirleyen örgüttür
+    </blockquote>
+
+    <p>
+        <a href="https://sercanozbek.com" title="Sercan Ozbek" target="_blank"><b>Buraya</b></a> Tıklayarak blog sayfama
+        gidebilirsiniz.
+    </p>
+
+    <p>
+        <a href="#ders1">HTML ders 1</a>
+        <a href="#ders2">HTML ders 2</a>
+        <a href="#ders3">HTML ders 3</a>
+        <a href="#ders4">HTML ders 4</a>
+    </p>
+    <div id="ders1">
+        Test metni 1 <br>
+    </div>
+    <div id="ders2">
+        Test metni 2 <br>
+    </div>
+    <div id="ders3">
+        Test metni 3 <br>
+    </div>
+    <div id="ders4">
+        Test metni 4 <br>
+    </div>
+    <a href="lorem-ipsum.png" download>Resmi indir</a>
+    <a href="https://google.com" rel="nofollow">No Follow</a>
+
+    <p>
+        <img src="lorem-ipsum.png" title="Lorem Ipsum" alt="resim yüklenmez ise çalışacak" width="400" />
+    </p>
+
+    <p>
+        <img src="https://html.com/wp-content/uploads/flamingo1x.jpg"
+            srcset="https://html.com/wp-content/uploads/flamingo3x.jpg 3x, https://html.com/wp-content/uploads/flamingo2x.jpg 2x">
+    </p>
+
+    <br>
+
+    <table border="1">
+        <caption>Aylık Maaş</caption>
+        <thead>
+            <th>
+                Ay
+            </th>
+            <th>
+                Maaş
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    Ocak
+                </td>
+                <td>
+                    25
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Şubat
+                </td>
+                <td>
+                    40
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">
+                    Toplam:65
+
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <ul>
+        <li>Sabah 9 da kalk</li>
+        <li>Elini yüzünü yıka</li>
+        <li>
+            Mesaiye başla
+            <ul>
+                <li>Scrum toplantısına katıl</li>
+                <li>Müşteri taleplerini incele</li>
+                <li>Github'a commit at</li>
+            </ul>
+        </li>
+    </ul>
+
+    <ol type="1" start="3">
+        <li>VS Code kurulumunu yap</li>
+        <li>ng new PROJE_ADI ile projeni oluştur</li>
+        <li>ng serve --open ile projeyi ayağa kaldır</li>
+    </ol>
+    <audio controls loop>
+        <source src="musictest.mp3" type="audio/mpeg">
+        Tarayıcınız mp3 desteklemiyor.
+    </audio>
+    <br> <br>
+    <video controls poster="test.gif">
+        <source src="test.mp4" type="video/mp4">
+        Tarayıcınız videoyu desteklemiyor.
+    </video>
+    <br><br>
+    <a href="https://www.sportdid.com" target="webSitem"> Spor sayfama git</a>
+    <br>
+    <iframe name="webSitem" src="https://www.sercanozbek.com/" height="400" sandbox></iframe>
+</body>
+
+</html>
