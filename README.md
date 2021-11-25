@@ -1,2 +1,3 @@
-# HTML-htmlTags
-HTML de genellikle kullanılan etiketler hakkında bilgi vermek amaclıdır.
+# HTML Tags
+
+It is intended to provide information about the tags that are generally used in HTML.
